@@ -1,0 +1,40 @@
+/* Site Stylesheet
+  1. Global Styles
+  2. Typography Styles
+  3. Structure Styles
+  4. Module Styles
+  5. Component Styles
+======================================== */
+
+/* 1. Global Styles
+======================================== */
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+  }
+
+a {
+  color: seashell;
+}
+
+.site-header-nav{
+  height: 69px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.site-header-nav{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  
+}
+
+.logo{
+  height: 50px;
+  justify-content: left;
+  margin-left: auto;
+}
